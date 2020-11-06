@@ -7,21 +7,26 @@
       <script src="register.js" defer></script>
    </head>
 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
    <body>
         <h1>User Registration</h1> 
-        <form action=""></form>
+        <form id="form" action=""></form>
             <label for="fullName">Full Name</label>
-            <input type="text" id="fullName" label="fullName"></input>
+            <input type="text" value="" id="fullName" label="fullName"></input>
             <label for="email">Email</label>
-            <input type="text" name="email" id="email">
+	    <input value="" type="text" name="email" id="email"></input>
             <label for="password">Password</label>
-            <input type="text" name="password" id="password">
+	    <input value="" type="password" name="password" id="password"></input>
             <label for="confirmPassword">Confirm Password</label>
-            <input type="text" name="confirmPassword" id="confirmPassword">
+	    <input value="" type="password" name="confirmPassword" id="confirmPassword"></input>
             <div id="formErrors">
+		<ul>
 
+		</ul>
             </div>
-            <input type="submit" id="submit" value="Register"> 
+	    <input type="submit" id="submit" value="Register"></input>
         </form>
     
    </body>
