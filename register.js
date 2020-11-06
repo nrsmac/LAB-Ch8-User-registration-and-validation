@@ -26,7 +26,7 @@ function checkForm() {
                email.style.border = "1px solid #aaa"
         }
 
-	if (password.value < 10 || password.value > 20) {
+	if (password.value.length < 10 || password.value.length > 20) {
 		errors.push("Password must be between 10 and 20 characters.");
 		password.style.border = "2px red solid";
 		passwordConfirm.style.border = "2px red solid";
