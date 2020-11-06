@@ -60,7 +60,7 @@ function checkForm() {
 		password.style.border = "1px solid #aaa";
 	}
 
-	if (password.value != confirmPassword.value || confirmPassword.value.length < 1){
+	if (password.value != confirmPassword.value){
 		errors.push("Password and confirmation password don't match.");
 		confirmPassword.style.border = "2px red solid";
 	} else {
