@@ -22,6 +22,10 @@ form label, input{
     color: red;
 }
 
+#formErrors li {
+	rgb(255,0,0);
+}
+
 #submit {
     background-color: rgb(2, 255, 221); /* Green */
   border: none;
